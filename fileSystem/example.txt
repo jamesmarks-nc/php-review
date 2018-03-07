@@ -1,0 +1,5 @@
+This is a sample text file for use with file.php.
+There are multiple lines in this file. The file()
+function will read this file as an array of strings
+while the file_get_contents() function will read it
+as a single continuous string.
