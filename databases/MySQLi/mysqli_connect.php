@@ -3,7 +3,7 @@
 	$server = 	"localhost"; 
 	$user = 	"root";
 	$pass = 	"";
-  $database = "your_schema_name_here"; 
+  $database = "review"; 
          
 	//make a database connection object
 	$mysqli = new mysqli($server, $user, $pass, $database);	

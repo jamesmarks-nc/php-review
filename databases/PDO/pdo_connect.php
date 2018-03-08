@@ -1,6 +1,6 @@
 <?php
 
-  $database = "your_schema_name_here"; 
+  $database = "review"; 
   $server = 	"localhost"; 
   
   $dsn = "mysql:dbname=$database;host=$server";
@@ -10,7 +10,7 @@
 
  
   try {
-    $dbh = new PDO($dsn, $user, $password);
+    $db = new PDO($dsn, $user, $pass);
   } catch (PDOException $e) {
     echo 'Connection failed: ' . $e->getMessage();
   }
