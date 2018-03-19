@@ -1,13 +1,16 @@
 <?php
 
 // Data types: Internally managed
-1;                            // Integer
-1.5;                          // Float
-"String";                     // String
-true;                         // Boolean
-[ 'a', 'b', 'c', 'd', 'e' ];  // Array
-null;                         // NULL
-// Note: the above lines of code evaluate, but no visible output will be generated as the values are not provided to an echo() or print() and are not assigned to any variable.
+1;                                 // Integer
+1.5;                               // Float
+"String";                          // String
+true;                              // Boolean
+[ 'a', 'b', 'c', 'd', 'e' ];       // Array // An equivalent array declaration: array( 'a', 'b', 'c', 'd', 'e' );
+null;                              // NULL
+// Note: The above lines of code evaluate, but no visible output will be generated as the
+//  values are not provided to an echo() or print() and are not assigned to any variable.
+//  You will not get errors as the above are valid expressions, but they will not produce
+//  any behavior.
 
 // Dates are handled a bit differently to allow us to easily do date operations.
 $d1 = new DateTime("2018-01-01");
@@ -19,7 +22,7 @@ echo $d2->format('Y-m-d') . "<BR>\n";
 // Object and Resource as well, but we will not create any from scratch.
 
 // As demonstrated above, we can output values to the HTML client
-// using echo or print. Use echo any time you want to output for 
+// using echo or print. Use echo any time you want to output for
 // the final product.
 echo "Hello world." . "<BR>\n";
 echo "<strong>I can use HTML tags here too</strong>" . "<BR>\n";
