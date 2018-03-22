@@ -16,6 +16,9 @@ SET time_zone = "+00:00";
 -- Database: `review`
 --
 
+CREATE SCHEMA review;
+USE review;
+
 -- --------------------------------------------------------
 
 --
